@@ -28,7 +28,7 @@ public class SimpleConnectionExampleApplication {
             statement.executeUpdate("CREATE SEQUENCE IF NOT EXISTS car_seq");
 
             // Execute SQL query - drop table
-            statement.executeUpdate("DROP TABLE car");
+//            statement.executeUpdate("DROP TABLE car");
 
             // Execute SQL query - create new table if not exists
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS car (" +
